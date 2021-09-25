@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&display=swap');
+
+.navbar{
+    text-align: center;
+    font-size: larger;
+    background-color: rgb(160, 245, 245);
+    padding: 3rem;
+}
+
+#main-head{
+text-align: center;
+
+}
+a{
+    text-decoration: none;
+    padding: 1rem
+}
+body{
+    background-color:rgb(160, 245, 245); 
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.heading{
+    text-align: center;
+}
+.container{
+    text-align: center;
+}
+
+form{
+    text-align: center;
+}

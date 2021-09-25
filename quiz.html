@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="style.css">
+    <div class="">
+      <nav class="navbar">
+        <h1  class=" heading">Fun with Triangles</h1>
+          <a href="/triangle.html">Is Triangle?</a>
+          <a href="/quiz.html">Quiz</a>
+          <a href="hypotenuse.html">hypotenuse</a>
+          <a href="area.html">Area of Triangle</a>
+      </nav>
+  </div>
+    <h1  class=" heading">Triangle Quiz</h1>
+    <div class="conatiner">
+      
+    </div>
+    <form class="quiz">
+      <div class="question-con">
+        <p>What is the angle for the triangle where angle1=45 and angle2=45?</p>
+        <label for=""><input type="radio" name="ques1" value="45" />45</label>
+        <label for=""><input type="radio" name="ques1" value="60" />60</label>
+        <label for=""><input type="radio" name="ques1" value="90" />90</label>
+      </div>
+
+      <div class="question-con">
+        <p>If a triangle has an angle of 90 degrees,What is it called?</p>
+        <label for=""
+          ><input type="radio" name="ques2" value="obtuse" />obtuse</label
+        >
+        <label for=""
+          ><input type="radio" name="ques2" value="acute" />acute</label
+        >
+        <label for=""
+          ><input type="radio" name="ques2" value="right angled" />right
+          angled</label
+        >
+        <p>Which of the following triangles are always similar?</p>
+        <label
+          ><input
+            type="radio"
+            name="question7"
+            value="Equilateral triangle"
+            required
+          />Equilateral triangle</label
+        >
+        <label
+          ><input
+            type="radio"
+            name="question7"
+            value="Isosceles triangle"
+            required
+          />Isosceles triangle</label
+        >
+
+        <p>All 3 interior angles of a triangle add up to</p>
+        <label
+          ><input type="radio" name="question4" value="90 degrees" required />90
+          degrees</label
+        >
+        <label
+          ><input
+            type="radio"
+            name="question4"
+            value="180 degrees"
+            required
+          />180 degrees</label
+        >
+        <label
+          ><input
+            type="radio"
+            name="question4"
+            value="360 degrees"
+            required
+          />360 degrees</label
+        >
+      </div>
+      <button id="submit">Submit</button>
+      <div id="output"></div>
+    </form>
+  </body>
+  <script src="/quiz.js"></script>
+</html>
